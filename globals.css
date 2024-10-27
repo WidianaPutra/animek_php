@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "cinzel";
+  src: url("/public/fonts/Cinzel-Medium.ttf") format("truetype");
+  font-weight: normal;
+}
+
+:root {
+  --cinzel: "Cinzel";
+  --darkMode: "#1E201E";
+  --white: #fff;
+}
+
+.card-ratio {
+  aspect-ratio: 7/11;
+}
+
+.height-transition {
+  transition: height 1s ease-in-out;
+}
